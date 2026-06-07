@@ -3,9 +3,9 @@ from telethon.sessions import StringSession
 import asyncio
 
 # ========== CONFIG ==========
-STRING_SESSION = '1BVtsOHgBu2BnUmpZSnTp7Rm9zoDegzKaYcdKGJn5J3POfH8sYNmyk2CnkkXZDvJGZ2r-oBr5tSTHSYS-TEtLo1Yq1KSSlx9eNbZWeH28_tKROoTmHqOD283Ac6U7Y0DaRp3j4WgU71oKXfQRaXN6ubectUfPn8QiuKnsS53w5Mq8p1eBq9d3PQGHyMrEr7LV9nSj0MMkC3_4Zjx287IEN9JqGsWzp7yGBfPNRoXDkMOEeFbFgoIUJrfz5Zwj4WvbnRAfSNZ9eSU45OkmAIMGNwJJubiTVioOgXOFzvc5I7sE_jo_L3DdmHZiyKonYc6aUxxFCz9craO_uaTsElRPy0mnSrHwh7g='
-API_ID = 37932223
-API_HASH = '4c3c910393c63d1527debd18b74f1450'
+STRING_SESSION = '1BVtsOMcBu6pmRH6qbNbezvvWwc-WllRKklJLYE1TESlv1mU_Qsp3miUNbPlGW1g_l0aZN-eTlxpxXBboXvGo0dBglJDUghtlyAo1tQy5b8AKK2uK1ZoyZdvw3-Ha6VYUrYebTjH765U6_4r1RnGOMhu8Hyg8HyhMZLsU3fUt1FDXnc6zSx0h5WUNiF1w_0uzkRblz7oSboprRatp-UHsPMwGMAamCXQU_iHfETEisHHJCAoS8jOUouHK9ElOFWZveekdlV_4bEaavDTL9ylvRlkgBTBgY8YeSqQtuSqgu5dUo9Vqyy3t4R-Mxm40eCmbNrNFiQ4eeWA8qaFnCvaQJGJIZAuO1U0='
+API_ID = 31653365
+API_HASH = '46fa4b3be1dd2f89dc84d447cf3fc820'
 # ============================
 
 client = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
